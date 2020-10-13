@@ -116,6 +116,7 @@ footer {
   transform: translate(-50%, -50%);
   color: lightgrey;
   font-style: italic;
+  font-size: 10px;
 }
 #contact {
   height: 70%;
@@ -132,5 +133,10 @@ footer {
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: lightgrey;
+}
+#contact .social i:hover {
+  cursor: pointer;
+  color: #000000;
+  font-size: 50px;
 }
 /* /css footer */
