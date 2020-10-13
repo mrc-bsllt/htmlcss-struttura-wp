@@ -17,6 +17,23 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* css generale */
+.float {
+  float: left;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.post {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 4px 4px #3e3d43;
+}
+/* css generale */
+
+
 /* css header */
 header {
 width: 100%;
@@ -40,8 +57,29 @@ header nav {
 main {
   width: 100%;
   height: 80vh;
+  padding-top: 10px;
   background-color: rgba(0, 0, 0, 0.3);
 }
+.section-left,
+.section-right {
+  height: 100%;
+}
+.section-left {
+  width: 70%;
+}
+main .section-left .post.first {
+  width: 20%;
+  height: 40%;
+  margin-right: 10%;
+}
+main .section-left .post.second {
+  width: 70%;
+  height: 30%;
+}
+.section-right {
+  width: 30%;
+}
+
 /* /css main */
 
 /* css footer */
