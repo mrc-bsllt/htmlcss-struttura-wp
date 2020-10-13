@@ -26,10 +26,10 @@ body {
   float: left;
 }
 h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 20px;
 }
 h3 {
   font-size: 15px;
@@ -145,11 +145,34 @@ footer {
   height: 10%;
 }
 #author {
+  position: relative;
   height: 30%;
   background-color: #5d675b;
+  border-bottom: 1px solid lightgrey;
+}
+#author div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lightgrey;
+  font-style: italic;
 }
 #contact {
   height: 70%;
   background-color: #f78e69;
+}
+#contact .social {
+  position: relative;
+  width: calc(100% / 3);
+  height: 100%;
+}
+#contact .social i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: lightgrey;
 }
 /* /css footer */
