@@ -95,7 +95,7 @@ main {
 }
 .left-section,
 .right-section {
-  height: 100%;
+  /* height: 100%; */
 }
 .left-section {
   width: 80%;
