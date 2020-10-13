@@ -32,11 +32,12 @@ h2 {
   font-size: 22px;
 }
 h3 {
+  margin-bottom: 12%;
   font-size: 20px;
   color: #807d85;
 }
 p {
-  line-height: 20px;
+  line-height: 27px;
   letter-spacing: 2px;
 }
 li {
@@ -90,7 +91,7 @@ header {
 /* css main */
 main {
   height: 70%;
-  margin: 2% 0;
+  margin: 0.8% 0 3% 0;
 }
 .left-section,
 .right-section {
@@ -126,21 +127,19 @@ main {
 }
 .right-section > .post {
   width: 80%;
-  margin-left: 50%;
+  margin-left: 20%;
   margin-bottom: 20%;
   padding: 10px;
   border-radius: 5px;
   text-align: left;
   background-color: #ffffff;
 }
-.right-section h3 {
-  margin-bottom: 15%;
-}
 /* /css main */
 
 /* css footer */
 footer {
   height: 10%;
+  margin-top: 10%;
 }
 #author {
   position: relative;
